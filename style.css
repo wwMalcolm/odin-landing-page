@@ -1,3 +1,41 @@
-.header-list {
+body {
+    font-family: "Roboto";
+}
+
+.header-list-first, .header-list-others {
     list-style: none;
+}
+
+.header-list-first {
+    font-size: 24px;
+    color: #F9FAF8;
+
+}
+
+.header-list-others {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-one {
+    background-color: #1F2937;
+}
+
+.content-text > h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.content-text > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content-image {
+    width: 600px;
+    height: 250px;
+    background-color: gray;
+    color: #F9FAF8;
+    display: flex;
 }
