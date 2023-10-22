@@ -2,17 +2,19 @@ body {
     font-family: "Roboto";
 }
 
-.header-list-first, .header-list-others {
+/*Section 1 Content Styling*/
+
+.header-list-left, .header-list-right {
     list-style: none;
 }
 
-.header-list-first {
+.header-list-left {
     font-size: 24px;
     color: #F9FAF8;
 
 }
 
-.header-list-others {
+.header-list-right {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -32,10 +34,43 @@ body {
     color: #E5E7EB;
 }
 
+.content-text > button {
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border-style: none;
+    color: #fff;
+    background: #339DFF;
+}
+
 .content-image {
     width: 600px;
     height: 250px;
     background-color: gray;
     color: #F9FAF8;
     display: flex;
+}
+
+/*Section 1 Content Arrangement*/
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 200px 100px;
+}
+
+.header-bar {
+    display: flex;
+    padding: 0px;
+    margin: 0px 0px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-list-left {
+    margin-right: auto;
+}
+
+.header-list-right {
+    margin-left: 20px;
 }
