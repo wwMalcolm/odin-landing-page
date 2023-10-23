@@ -11,10 +11,12 @@ body {
 .header-list-left {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 
 }
 
-.header-list-right {
+.header-link {
+    text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -36,7 +38,8 @@ body {
 
 .content-text > button {
     font-size: 18px;
-    padding: 10px 30px;
+    font-weight: bold;
+    padding: 7px 31px;
     border-radius: 8px;
     border-style: none;
     color: #fff;
@@ -44,11 +47,16 @@ body {
 }
 
 .content-image {
-    width: 600px;
+    width: 555px;
     height: 250px;
-    background-color: gray;
+    background-color: #757980;
     color: #F9FAF8;
     display: flex;
+}
+
+.content-image > p {
+    margin: auto;
+    text-align: center;
 }
 
 /*Section 1 Content Arrangement*/
@@ -56,15 +64,16 @@ body {
 .section-one {
     display: flex;
     flex-direction: column;
-    padding: 10px 200px 100px;
+    padding: 10px 350px 150px;
 }
 
 .header-bar {
     display: flex;
     padding: 0px;
-    margin: 0px 0px 50px;
+    margin: 10px 0px 80px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    /* border: 5px solid white; */
 }
 
 .header-list-left {
@@ -73,4 +82,24 @@ body {
 
 .header-list-right {
     margin-left: 20px;
+}
+
+.content {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.content-text {
+    display: flex;
+    width: 450px;
+    flex-wrap: wrap;
+}
+
+.content-text > * {
+    margin: 0;
+}
+
+.content-text > button {
+    margin-top: auto;
 }
