@@ -103,3 +103,53 @@ body {
 .content-text > button {
     margin-top: auto;
 }
+
+
+
+
+
+/* Section 2 */
+
+.section-two {
+    padding: 45px 150px; /* 45px to be changed later on */
+    /* When changed, make sure top n bottom have right amount of spacing as picture */
+}
+
+.two-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.two-container {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.two-item-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.two-box {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+.two-text {
+    width: 160px;
+    color: #58585a;
+    font-size: 17px;
+}
